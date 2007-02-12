@@ -1,5 +1,5 @@
 Summary:	xpr applications - printing X window
-Summary(pl):	Aplikacje xpr - drukowanie okienek X
+Summary(pl.UTF-8):   Aplikacje xpr - drukowanie okienek X
 Name:		xorg-app-xpr
 Version:	1.0.2
 Release:	1
@@ -26,13 +26,13 @@ xdpr uses the commands xwd, xpr, and lpr or lp to dump an X window,
 process it for a particular printer type, and print it out on the
 printer of your choice.
 
-%description -l pl
-xpr przyjmuje na wej∂ciu plik zrzutu okna utworzony przez xwd i
+%description -l pl.UTF-8
+xpr przyjmuje na wej≈õciu plik zrzutu okna utworzony przez xwd i
 formatuje go do wydruku na drukarkach postscriptowych, Digital LN03
 lub LA100, drukarce stronnicowej IBM PP3812, HP LaserJet (albo innych
 drukarkach PCL) lub HP PaintJet.
 
-xdpr uøywa poleceÒ xwd, xpr i lpr lub lp do wykonania zrzutu okienka
+xdpr u≈ºywa polece≈Ñ xwd, xpr i lpr lub lp do wykonania zrzutu okienka
 X, przetworzenia go dla danego typu drukarki i wydrukowania go na
 wybranej drukarce.
 
