@@ -1,5 +1,5 @@
 Summary:	xpr applications - printing X window
-Summary(pl.UTF-8):   Aplikacje xpr - drukowanie okienek X
+Summary(pl.UTF-8):	Aplikacje xpr - drukowanie okienek X
 Name:		xorg-app-xpr
 Version:	1.0.2
 Release:	1
