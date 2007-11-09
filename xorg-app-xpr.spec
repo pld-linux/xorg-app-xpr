@@ -4,7 +4,7 @@ Name:		xorg-app-xpr
 Version:	1.0.2
 Release:	1
 License:	MIT
-Group:		X11/Application
+Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xpr-%{version}.tar.bz2
 # Source0-md5:	6b3a6896081f628bf5a2c9129417c86f
 URL:		http://xorg.freedesktop.org/
