@@ -1,21 +1,23 @@
 Summary:	xpr applications - printing X window
 Summary(pl.UTF-8):	Aplikacje xpr - drukowanie okienek X
 Name:		xorg-app-xpr
-Version:	1.0.5
+Version:	1.1.0
 Release:	1
 License:	MIT
 Group:		X11/Applications
-Source0:	https://xorg.freedesktop.org/releases/individual/app/xpr-%{version}.tar.bz2
-# Source0-md5:	eaac255076ea351fd08d76025788d9f9
+Source0:	https://xorg.freedesktop.org/releases/individual/app/xpr-%{version}.tar.xz
+# Source0-md5:	9cf272cba661f7acc35015f2be8077db
 URL:		https://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 1:0.19
+BuildRequires:	tar >= 1:1.22
 BuildRequires:	xorg-lib-libX11-devel
 # just xmuu
 BuildRequires:	xorg-lib-libXmu-devel
 BuildRequires:	xorg-proto-xproto-devel >= 7.0.17
 BuildRequires:	xorg-util-util-macros >= 1.8
+BuildRequires:	xz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -61,7 +63,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc COPYING ChangeLog README
+%doc COPYING ChangeLog README.md
 %attr(755,root,root) %{_bindir}/xdpr
 %attr(755,root,root) %{_bindir}/xpr
 %{_mandir}/man1/xdpr.1*
